@@ -1,6 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #0E0F12;
+    background: linear-gradient(to left, #AF3DD4, black);
 }
 
 .header-section {
