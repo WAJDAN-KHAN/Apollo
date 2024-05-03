@@ -95,6 +95,9 @@ body {
     max-width: 25rem;
 }
 
+.max-w-xss {
+    max-width: 40rem;
+}
 
 .nodes-btn {
     padding-left: 1.5rem;
@@ -298,14 +301,14 @@ body {
     inset: 0;
 }
 
-.instant h3{
+.instant h3 {
     color: white;
     font-weight: 600;
     font-size: 1.875rem;
     line-height: 2.25rem;
 }
 
-.tablee{
+.tablee {
     max-width: 426px;
     width: 100%;
 }
@@ -319,20 +322,22 @@ body {
 }
 
 
-.description-card{
+.description-card {
     padding: 40px 0px;
 }
 
 .disc-card {
     transition-duration: .5s;
-    transition-property: transform; /* Only transition the transform property */
+    transition-property: transform;
+    /* Only transition the transform property */
     transition-timing-function: cubic-bezier(.4, 0, .2, 1);
     padding: 1.5rem;
     --tw-border-opacity: 1;
     border: 1px solid rgb(50 51 54 / var(--tw-border-opacity));
     border-radius: 1rem;
     width: 100%;
-    position: relative; /* Ensure hover effect stays within the card boundary */
+    position: relative;
+    /* Ensure hover effect stays within the card boundary */
     text-align: center;
     height: 100%;
 }
@@ -340,40 +345,40 @@ body {
 .disc-card:hover {
     --tw-scale-x: 1.05;
     --tw-scale-y: 1.05;
-    --tw-translate-x: 0; /* Define these properties */
-    --tw-translate-y: 0; /* Define these properties */
-    --tw-rotate: 0; /* Define these properties */
-    --tw-skew-x: 0; /* Define these properties */
-    --tw-skew-y: 0; /* Define these properties */
+    --tw-translate-x: 0;
+    /* Define these properties */
+    --tw-translate-y: 0;
+    /* Define these properties */
+    --tw-rotate: 0;
+    /* Define these properties */
+    --tw-skew-x: 0;
+    /* Define these properties */
+    --tw-skew-y: 0;
+    /* Define these properties */
     cursor: pointer;
-    transform: 
-        translate(var(--tw-translate-x), var(--tw-translate-y))
-        rotate(var(--tw-rotate))
-        skewX(var(--tw-skew-x))
-        skewY(var(--tw-skew-y))
-        scaleX(var(--tw-scale-x))
-        scaleY(var(--tw-scale-y));
+    transform:
+        translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.disc-card h3{
+.disc-card h3 {
     font-weight: 600;
     font-size: 1.25rem;
     line-height: 1.75rem;
 }
 
 
-.disc-card p{
+.disc-card p {
     color: #7B7B7D;
     font-size: 1rem;
     line-height: 1.5rem;
 }
 
-.work-section{
+.work-section {
     padding: 60px 0px;
 }
 
-.graphic-card img{
-    max-width: 512px ;
+.graphic-card img {
+    max-width: 512px;
     width: 100%;
 }
 
@@ -383,12 +388,12 @@ body {
     line-height: 1.75rem;
 }
 
-.big-card{
+.big-card {
     box-shadow: inset 0 1px 2px 0 rgba(163, 244, 175, .5);
-    
+
     width: 100%;
     height: 400px;
-   
+
     border-radius: 16px;
     border: 1px solid hsla(0, 0%, 100%, .15);
     background: radial-gradient(100% 100% at 50.06% 0, rgba(121, 250, 166, .1) 0, rgba(14, 15, 18, .1) 49.5%), #0e0f12;
@@ -400,12 +405,12 @@ body {
 
 }
 
-.big-card2{
+.big-card2 {
     box-shadow: inset 0 1px 2px 0 rgba(163, 244, 175, .5);
-    
+
     width: 100%;
     min-height: 380px;
-   
+
     border-radius: 16px;
     border: 1px solid hsla(0, 0%, 100%, .15);
     background: radial-gradient(100% 100% at 50.06% 0, rgba(121, 250, 166, .1) 0, rgba(14, 15, 18, .1) 49.5%), #0e0f12;
@@ -416,7 +421,8 @@ body {
     position: relative;
 
 }
-.big-card h3{
+
+.big-card h3 {
     font-size: 1.25rem;
     line-height: 1.75rem;
     font-weight: 600;
@@ -424,36 +430,55 @@ body {
     z-index: 11;
 }
 
-.medal{
-    max-width: 100%;
+.medal {
+    max-width: 250px;
     height: auto;
-     
-        position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    margin: auto;
-}
-.trophy{
-    max-width: 100%;
-    height: auto;
-     
-        position: absolute;
+
+    position: absolute;
     left: 0;
     bottom: 0;
     right: 0;
     margin: auto;
 }
-.svgexport{
-    max-width: 100%;
+
+.trophy {
+    max-width: 250px;
     height: auto;
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.svgexport {
+    max-width: 250px;
+    height: auto;
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.mapp-list {
+    list-style: none;
+    padding: 0px;
+}
+
+.mapp-list li {
+    display: flex;
+    gap: 10px;
+    align-items: start;
 }
 
 .rewards {
     border-radius: 16px;
-    background: radial-gradient(100% 100% at 50.06% 0,rgba(121,250,166,.3) 0,rgba(14,15,18,.3) 49.5%);
+    background: radial-gradient(100% 100% at 50.06% 0, rgba(121, 250, 166, .3) 0, rgba(14, 15, 18, .3) 49.5%);
     box-shadow: inset 0 1px 2px 0 rgba(163, 244, 175, .5);
-border: none;
+    border: none;
 }
 
 .text-xl {
@@ -472,29 +497,77 @@ border: none;
 
 
 
- /* Apply custom scrollbar styles */
- ::-webkit-scrollbar {
-    width: 12px; /* Adjust the width of the scrollbar */
+/* Apply custom scrollbar styles */
+::-webkit-scrollbar {
+    width: 12px;
+    /* Adjust the width of the scrollbar */
 }
 
 ::-webkit-scrollbar-track {
-    background: transparent; /* Background color of the scrollbar track */
-    border-radius: 10px; /* Apply the same border radius as the container */
+    background: transparent;
+    /* Background color of the scrollbar track */
+    border-radius: 10px;
+    /* Apply the same border radius as the container */
 }
 
 ::-webkit-scrollbar-thumb {
-    background: linear-gradient(100deg, #7BF736 0%, #37ECD6 100%); /* Gradient color for the scrollbar thumb */
-    border-radius: 10px; /* Apply the same border radius as the container */
+    background: linear-gradient(100deg, #7BF736 0%, #37ECD6 100%);
+    /* Gradient color for the scrollbar thumb */
+    border-radius: 10px;
+    /* Apply the same border radius as the container */
+}
+  .reputation {
+    box-shadow: inset 0 1px 2px 0 rgba(163, 244, 175, .5);
+    background: radial-gradient(100% 100% at 50.06% 0, rgba(121, 250, 166, .1) 0, rgba(14, 15, 18, .1) 49.5%);
+    border-radius: 16px;
+    border: 1px solid var(--Border-Border-subtle, hsla(0, 0%, 100%, .15));
+    padding: 2rem;
 }
 
+
+
+.footer-section {
+    padding: 3rem 0px;
+    --tw-border-opacity: 1;
+    border-top: 1px solid rgb(50 51 54 / var(--tw-border-opacity));
+    max-width: 100%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+}
+
+.linkss a {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.map{
+    max-width: 100%;
+    height: auto;
+    z-index: -10;
+    position: relative;
+}
+
+
+.country-card{
+    border-radius: 16px;
+    background: radial-gradient(100% 100% at 50.06% 0, rgba(121, 250, 166, .3) 0, rgba(14, 15, 18, .3) 49.5%);
+    box-shadow: inset 0 1px 2px 0 rgba(163, 244, 175, .5);
+    backdrop-filter: blur(20px);
+    padding: 1rem;
+    width: 100%;
+}
 
 @media(max-width:1024px) {
     .menu-items {
         display: none;
     }
-.gapping{
-    margin-top: 15px;
-}
+
+    .gapping {
+        margin-top: 15px;
+    }
 }
 
 
@@ -506,12 +579,20 @@ border: none;
         padding: 20px;
     }
 
+    .reverse {
+        flex-direction: column;
+    }
+
     .title {
         font-size: 2rem;
         line-height: 1.2;
     }
 
     .max-w-xs {
+        max-width: 100%;
+    }
+
+    .max-w-xss {
         max-width: 100%;
     }
 
@@ -532,20 +613,24 @@ border: none;
         line-height: 2.25rem;
         max-width: 100%;
     }
-    .tablee{
+
+    .tablee {
         max-width: 100%;
         width: 100%;
     }
-    .disc-card p{
+
+    .disc-card p {
         font-size: .875rem;
         line-height: 1.25rem;
     }
-    .graphic-card img{
-        max-width: 100% ;
+
+    .graphic-card img {
+        max-width: 100%;
         width: 100%;
     }
-    .big-card2{
+
+    .big-card2 {
         min-height: auto;
     }
-    
+
 }
