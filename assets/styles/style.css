@@ -333,7 +333,7 @@ body {
     transition-timing-function: cubic-bezier(.4, 0, .2, 1);
     padding: 1.5rem;
     --tw-border-opacity: 1;
-    border: 1px solid rgb(50 51 54 / var(--tw-border-opacity));
+    border: 1px solid white;
     border-radius: 1rem;
     width: 100%;
     position: relative;
@@ -483,12 +483,12 @@ text-align: center;
 .numbr2{
     width: 50px !important;
     height: 50px;
-    color: white;
+    color: black;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    background: linear-gradient(to left, #AF3DD4, black);
+    background: linear-gradient(to left, #AF3DD4, white);
 }
 
 .circle-filled{
@@ -625,6 +625,9 @@ text-align: center;
     .tablee {
         max-width: 100%;
         width: 100%;
+    }
+    .gappings{
+        gap: 20px;
     }
 
     .disc-card p {
