@@ -55,7 +55,7 @@ body {
     padding-right: .75rem;
     --tw-bg-opacity: 1;
     background-color: rgb(2 6 23 / var(--tw-bg-opacity));
-    border: 1px solid rgb(163, 230, 53);
+    border: 1px solid #AF3DD4;
     /* Add border radius */
     border-radius: 9999px;
 
@@ -119,7 +119,7 @@ body {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     --tw-border-opacity: 1;
-    border: 1px solid rgb(163, 230, 53);
+    border: 1px solid #AF3DD4;
     border-radius: 1.5rem;
     gap: .5rem;
     --tw-text-opacity: 1;
@@ -206,7 +206,7 @@ body {
 
 .bg-lime-400 {
     --tw-bg-opacity: 1;
-    background-color: rgb(163 230 53 / var(--tw-bg-opacity));
+    background-color:#AF3DD4;
 }
 
 .roundedddd {
@@ -392,8 +392,8 @@ body {
     box-shadow: inset 0 1px 2px 0 rgba(163, 244, 175, .5);
 
     width: 100%;
-    height: 400px;
-
+    height: 100%;
+text-align: center;
     border-radius: 16px;
     border: 1px solid hsla(0, 0%, 100%, .15);
     background: radial-gradient(100% 100% at 50.06% 0, rgba(121, 250, 166, .1) 0, rgba(14, 15, 18, .1) 49.5%), #0e0f12;
@@ -423,7 +423,7 @@ body {
 }
 
 .big-card h3 {
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     line-height: 1.75rem;
     font-weight: 600;
     position: relative;
@@ -431,35 +431,26 @@ body {
 }
 
 .medal {
-    max-width: 250px;
+    max-width: 180px;
     height: auto;
 
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    right: 0;
+    
     margin: auto;
 }
 
 .trophy {
-    max-width: 250px;
+    max-width: 100%;
     height: auto;
 
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    right: 0;
+    
     margin: auto;
 }
 
 .svgexport {
-    max-width: 250px;
+    max-width: 180px;
     height: auto;
 
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    right: 0;
+   
     margin: auto;
 }
 
@@ -472,6 +463,8 @@ body {
     display: flex;
     gap: 10px;
     align-items: start;
+    margin-top: 20px;
+    font-size: 12px;
 }
 
 .rewards {
@@ -487,8 +480,23 @@ body {
 }
 
 
+.numbr2{
+    width: 50px !important;
+    height: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: linear-gradient(to left, #AF3DD4, black);
+}
 
-
+.circle-filled{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background:linear-gradient(to left, #AF3DD4, white) ;
+}
 
 
 
@@ -511,7 +519,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: linear-gradient(100deg, #7BF736 0%, #37ECD6 100%);
+    background: linear-gradient(to left, #AF3DD4, black);
     /* Gradient color for the scrollbar thumb */
     border-radius: 10px;
     /* Apply the same border radius as the container */
