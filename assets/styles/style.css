@@ -502,7 +502,7 @@ text-align: center;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    background: linear-gradient(to left, #AF3DD4, white);
+    background: white;
 }
 
 .circle-filled{
@@ -659,6 +659,16 @@ text-align: center;
 
     .big-card2 {
         min-height: auto;
+    }
+    .linkss a{
+        font-size: 16px;
+    }
+    .linkss{
+        margin-top: 20px;
+    }
+    .social-icons  {
+        justify-content: center;
+        gap: 40px !important;
     }
 
 }
