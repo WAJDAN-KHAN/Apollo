@@ -730,7 +730,7 @@ text-align: center;
     overflow: hidden;
 }
 .moving-image img{
-    max-width: 100%;
+    max-width: 70%;
 }
 .earth img{
     width: 100%;
