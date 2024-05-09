@@ -148,7 +148,9 @@ background-color: #BE28C3;
 }
 
 
-
+.earth img{
+    width: 85%;
+}
 
 .grp-card {
     width: 384px;
@@ -587,6 +589,9 @@ text-align: center;
     padding: 2rem;
 }
 
+.title-top{
+    padding-top: 80px;
+}
 
 
 .footer-section {
@@ -726,5 +731,8 @@ text-align: center;
 }
 .moving-image img{
     max-width: 100%;
+}
+.earth img{
+    width: 100%;
 }
 }
