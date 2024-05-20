@@ -362,17 +362,15 @@ background-color: #BE28C3;
     /* Only transition the transform property */
     transition-timing-function: cubic-bezier(.4, 0, .2, 1);
     padding: 1.5rem;
-    --tw-border-opacity: 1;
-    border: 1px solid white;
+    --tw-border-opacity: 1; 
     border-radius: 1rem;
     width: 100%;
-    position: relative;
-    background-color: white;
+    position: relative; 
     /* Ensure hover effect stays within the card boundary */
     text-align: center;
     height: 100%;
-    box-shadow: 0 0 13px rgba(255, 255, 255, 1.4);
-
+    background: #220C36;
+    box-shadow: 0 0 13px rgba(105, 58, 252, .54);
    
 }
 
